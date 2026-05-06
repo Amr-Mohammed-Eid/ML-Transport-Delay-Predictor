@@ -1,0 +1,29 @@
+{
+  "feature_columns": [
+    "passenger_count",
+    "latitude",
+    "longitude",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "month",
+    "day",
+    "route_frequency",
+    "route_id_encoded",
+    "time_of_day_encoded",
+    "weather_encoded",
+    "weather_severity_encoded"
+  ],
+  "test_mae": {
+    "linear_regression": 62.53385942216861,
+    "random_forest": 56.28990374129373,
+    "xgboost": 54.64085174819171,
+    "knn": 67.72373964575812
+  },
+  "test_r2": {
+    "linear_regression": 0.18493971122459274,
+    "random_forest": 0.4268184163594857,
+    "xgboost": 0.4813919070091699,
+    "knn": -0.04334189438016556
+  }
+}
